@@ -18,7 +18,7 @@ describe("Changes the first letter of every word in a string", () => {
     assert.strictEqual(titleCase(""), "");
   });
   it("Returns a single uppercase letter to an uppercase letter ", () => {
-    assert.strictEqual(titleCase("Z"), "This Is An Example");
+    assert.strictEqual(titleCase("Z"), "Z");
   });
 });
 
